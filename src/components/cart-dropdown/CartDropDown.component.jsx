@@ -11,7 +11,6 @@ const CartDropDown=({cartItems, history,dispatch})=>{
 
     const handleCheckout=(e)=>{
         
-        // console.log(e.target);
         e.preventDefault();
         dispatch(toggleCart());
         history.push('/checkout');
@@ -19,6 +18,7 @@ const CartDropDown=({cartItems, history,dispatch})=>{
     }
     return(
         <div className="cart-dropdown">
+            
             <div className="cart-items">
                 {
                     cartItems.length ?
