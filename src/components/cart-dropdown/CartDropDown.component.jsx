@@ -17,7 +17,7 @@ const CartDropDown=({cartItems, history,dispatch})=>{
 
     }
     return(
-        //kdkddk
+        
         <div className="cart-dropdown">
             
             <div className="cart-items">
